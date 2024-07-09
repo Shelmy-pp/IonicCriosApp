@@ -1,0 +1,7 @@
+{
+  "name": "CriosApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
