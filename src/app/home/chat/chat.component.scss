@@ -1,0 +1,66 @@
+.chat-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin-bottom: 1rem;
+}
+
+.background-image-container {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-image: url('/assets/images/sn2-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    z-index: -1;
+    justify-content: center;
+}
+
+
+ion-grid {
+    width: 100%;
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-column p {
+    text-align: center;
+}
+
+.content-row {
+    margin-top: 2rem;
+    display: inline-flex;
+}
+
+.text-container {
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: .8rem;
+    margin-top: 1rem;
+    color: rgb(221, 217, 217);
+
+}
+
+.label-container {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #3880ff;
+}
+
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,106 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents scrolling within ion-content */
+    margin-bottom: 1rem;
+  }
+  
+  .large-text {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: lighter;
+    margin-bottom: 3rem;
+  }
+  
+  .small-text {
+    font-size: .8rem; /* Adjust font size as needed */
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    color: rgb(221, 217, 217);
+  }
+  .card-large-text {
+    font-size: 1rem; /* Adjust font size as needed */
+    font-weight: lighter;
+    margin-bottom: .3rem;
+  }
+  ion-card {
+  
+    box-shadow: none !important; /* Remove standard box shadow for good measure */
+  }  
+  
+  .custom-card {
+    text-align: center;
+   
+  }
+  
+  ion-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  ion-img {
+    width: 64px; /* Adjust icon image size */
+    height: 64px;
+  }
+  
+  ion-card-content {
+    font-size: 1rem; /* Adjust font size */
+    padding: 10px; /* Adjust padding */
+  }
+  
+  .custom-button {
+    margin-top: .5rem;
+    --background: #ffffff; /* Background color of the button (white) */
+    --color: #3880ff; /* Text color of the button (blue) */
+    --border-radius: 10px; /* Optional: Border radius for rounded corners */
+  
+    width: 200px; /* Adjust width as needed */
+    margin: auto; /* Center the button horizontally */
+    text-transform: uppercase; /* Optional: Transform text to uppercase */
+    font-weight: 300;
+    --border-width: 10px; /* Set border width */
+//   --border-color: #000000; /* Set border color */
+//   --background-pressed: var(--background); /* Keep pressed state same as background */
+
+  // Additional styling if needed
+  --box-shadow: none; /* Remove box shadow if present */
+  }
+
+  .grid{
+    width: 100%;
+  }
+
+  .item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .alt {
+    background-color: #f0f0f0; /* Alternate background color for even-indexed items */
+  }
+  .text-container {
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: .8rem; /* Adjust font size as needed */
+    margin-top: 1rem;
+    color: rgb(221, 217, 217);
+
+  }
+  .label-container {
+    text-align: left;    
+  }
+  .center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  
